@@ -1,0 +1,21 @@
+Godzilla: The Run - an unofficial 7 Days to Die fan mod by Darwin
+
+CREDITS
+
+Godzilla model
+  "Godzilla minus one Rigged" by The Yakult man on Sketchfab
+  https://sketchfab.com/3d-models/godzilla-minus-one-rigged-a033cff17082479a921d84aa6e5e9d9c
+  Licensed under Creative Commons Attribution 4.0 (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+  Changes: animated and converted into a Unity asset bundle for use in the game.
+
+Sounds
+  His roar and footsteps are the game's own sounds (7 Days to Die by The Fun Pimps), pitched and layered.
+
+Code, world and buildings
+  The mod's code, the Kaiju Snake world and the army post buildings are by Darwin, MIT licensed (see LICENSE).
+
+DISCLAIMER
+
+This is a free, unofficial, non-commercial fan mod. Godzilla and related characters, names and
+designs are trademarks and copyrights of Toho Co., Ltd. This mod is not affiliated with, endorsed
+by or sponsored by Toho Co., Ltd. or The Fun Pimps. 7 Days to Die is a trademark of The Fun Pimps Entertainment LLC.
