@@ -30,7 +30,7 @@ The world is inside the mod (`KaijuMod\Worlds\Godzilla`); the game finds it ther
 3. Any game name and difficulty you like. Any blood moon frequency works; the run is paced on it, one biome per blood moon.
 4. Start, and read your note.
 
-Tips: keep moving east at first, and keep an eye on the western sky. The army posts on the mountain shelves above the big cities make good places to sit out a blood moon, and their towers are built to be fortified. The further you go, the bigger they get, and the later ones go a long way underground. Look around the top of each tower: the army left something there that helps against his radiation.
+Tips: keep moving east at first, and keep an eye on the western sky. The army posts on the mountain shelves above the big cities make good places to sit out a blood moon, and their towers are built to be fortified. The further you go, the bigger they get, and the later ones go a long way underground. Ask the trader in each big city about the post above it: the army left something at the top of its tower that helps against his radiation.
 
 ## Console commands
 
