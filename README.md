@@ -44,6 +44,7 @@ Everyday:
 - `kaiju perf`: what the mod costs per frame, by subsystem; `kaiju perf off <name>` to switch a part off and compare.
 - `kaiju zbreath off` / `kaiju zblast off`: turn off the irradiated zombies' ranged spit or their death blasts if you'd rather not have them.
 - `kaiju gcell skins off`: plain zombie skins for zombies that spawn from now on.
+- `kaiju hatches`: if you updated mid-game, turns the vault hatches of an army post you're standing in to open against the wall.
 - `kaiju style classic`: an alternative look for his attacks.
 
 Testing and cheats (spoilers): `kaiju attack`, `kaiju give`, `kaiju gcell`, `kaiju test`, `kaiju breath`, `kaiju roar`, `kaiju radiation off`, `kaiju run reset`. See `kaiju help` for what they do.
@@ -57,5 +58,7 @@ Testing and cheats (spoilers): `kaiju attack`, `kaiju give`, `kaiju gcell`, `kai
 - Saves made on one version of the world should be finished on that version: a world update only reaches areas you haven't explored yet.
 
 ## Credits and licence
+
+Inspired by Glock9's Ramblin Man (https://www.youtube.com/playlist?list=PLc594J9-WhOzu-wr3p_PN9qW_5mVovAzo) and Guns, Nerds, and Steel's The Road (https://www.youtube.com/playlist?list=PLWh-qD3Q6cxk) series.
 
 See CREDITS.txt. This is a free, unofficial, non-commercial fan mod. Godzilla is a trademark of Toho Co., Ltd.; this mod is not affiliated with or endorsed by Toho. The mod's code is MIT licensed (LICENSE).
