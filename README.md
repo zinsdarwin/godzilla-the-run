@@ -6,13 +6,13 @@ Godzilla has come ashore. You can't fight him. You run.
 
 Two ways to play:
 
-- **The Run**, on the Godzilla world that comes with the mod: a single player survival run across a custom world of five biome strips stacked north to south (pine forest, burnt forest, desert, snow, wasteland), joined by one road and one mountain pass between each strip. Radiation spreads behind you between blood moons, the dead it touches get back up, and every blood moon you need to be somewhere high and safe. Along the way, traders know where the army left its gear.
+- **The Run**, on the Godzilla world that comes with the mod: a survival run, alone or together, across a custom world of five biome strips stacked north to south (pine forest, burnt forest, desert, snow, wasteland), joined by one road and one mountain pass between each strip. Radiation spreads behind you between blood moons, the dead it touches get back up, and every blood moon you need to be somewhere high and safe. Along the way, traders know where the army left its gear.
 - **Godzilla Anywhere**, on any other map (Navezgane, a pregen or a random world): switch him on in the game's Sandbox Options and he comes for the town you're in or nearest to, after each blood moon or every few days. More below.
 
 ## Requirements
 
 - 7 Days to Die **V3.3** (built and tested on V3.3 b17), PC.
-- **Single player only.** In hosted or dedicated games Godzilla switches himself off.
+- **Single player, co-op or a dedicated server.** In multiplayer everyone needs the mod, the same version, and EAC off (see Multiplayer below).
 - **Launch without EasyAntiCheat.** The mod runs code (a DLL), so EAC has to be off: in the game launcher untick "Use EAC", or start `7DaysToDie.exe` directly.
 
 ## Install
@@ -25,7 +25,7 @@ The Godzilla world is inside the mod (`KaijuMod\Worlds\Godzilla`); the game find
 
 ## The Run
 
-1. New Game, mode Survival (single player).
+1. New Game, mode Survival (or host it for friends, or run it on a dedicated server).
 2. World: **Godzilla**.
 3. Any game name and difficulty you like. Any blood moon frequency works; the run is paced on it, one biome per blood moon.
 4. Start, and read your note.
@@ -36,7 +36,7 @@ Tips: keep moving east at first, and keep an eye on the western sky. The army po
 
 ## Godzilla Anywhere
 
-1. New Game on any world other than Godzilla (single player).
+1. New Game on any world other than Godzilla.
 2. Open the Sandbox Options and the **Godzilla** tab:
    - **Godzilla Anywhere**: Off (the default), After Blood Moon (the morning after each horde) or Every Few Days.
    - **Godzilla Frequency** and **Godzilla Range**: with Every Few Days, how many days between his visits, plus up to this many more at random (like the blood moon range).
@@ -48,6 +48,18 @@ He comes from the nearest sea or lake if there is one, else overland, levels the
 **Army posts on random worlds:** a random world generated with the mod installed gets the mod's army posts in its wilderness, each in its own biome, and the G-scale jobs send you to them. Worlds generated before you installed the mod (and Navezgane and the pregens) don't have posts; their G-scale jobs use the game's own military sites instead.
 
 Already in a save? `kaiju anywhere <off|bloodmoon|weekly|every N [range]|warning M|status>` sets it for that save from the console.
+
+## Multiplayer
+
+The host (or the dedicated server) runs Godzilla and the run; everyone else sees him, the breath, the clouds and the fallout on their own screen.
+
+- Everyone needs the mod installed, the same version, and EAC off. The game won't let a player without it join.
+- Radiation is per player: each of you takes your own dose, cut by the G-scales you wear, with your own warnings.
+- Trader jobs, parts, G-scales and weapons are per player, like the game's own items and quests. Anyone can fire a weapon; everyone sees it.
+- Godzilla Anywhere: each warning picks one of you at random, and he comes for the town nearest them. Everyone gets the warning.
+- The `kaiju` console commands are for admins. Those about your own game (`scales`, `parts`, `perf`, `gcell skins`...) run on your own game.
+- Dedicated server: set Godzilla Anywhere with `kaiju anywhere ...` in the server console or telnet, or with `KaijuModnywhere.xml` (`default="bloodmoon"` or `"every"`). The Run needs the server's world set to Godzilla.
+- Known gap: you won't see a G-cell zombie's spit aimed at another player.
 
 ## Console commands
 
@@ -69,7 +81,7 @@ Testing and cheats (spoilers): `kaiju attack`, `kaiju anywhere now`, `kaiju give
 
 ## Known limits
 
-- Single player only.
+- Multiplayer needs the mod on every player's game (same version, EAC off).
 - Needs EAC off.
 - Overhaul mods that replace the starting note, quests, traders or the world list may conflict.
 - He is very big and the effects are heavy; on slower PCs `kaiju perf` shows what to switch off.
