@@ -8,14 +8,21 @@ Godzilla model
   Licensed under Creative Commons Attribution 4.0 (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
   Changes: animated and converted into a Unity asset bundle for use in the game.
 
+King Ghidorah model
+  "JJJ's 1972 King Ghidorah" by JJJ (sculpt and textures) and MMDCharizard (rigging) on Sketchfab
+  https://sketchfab.com/3d-models/ff55e5dbc0af4f128d20b42ab4a432a2
+  Licensed under Creative Commons Attribution 4.0 (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+  Changes: posed (tails lifted, wings folded), re-bound to that standing pose, animated (walk, fly,
+  roar, idle) and converted into a Unity asset bundle for use in the game.
+
 Sounds
-  His roar and footsteps are the game's own sounds (7 Days to Die by The Fun Pimps), pitched and layered.
+  Their roars, the lightning and the footsteps are the game's own sounds (7 Days to Die by The Fun Pimps), pitched and layered.
 
 Code, world and buildings
   The mod's code, the Kaiju Snake world and the army post buildings are by Darwin, MIT licensed (see LICENSE).
 
 DISCLAIMER
 
-This is a free, unofficial, non-commercial fan mod. Godzilla and related characters, names and
+This is a free, unofficial, non-commercial fan mod. Godzilla, King Ghidorah and related characters, names and
 designs are trademarks and copyrights of Toho Co., Ltd. This mod is not affiliated with, endorsed
 by or sponsored by Toho Co., Ltd. or The Fun Pimps. 7 Days to Die is a trademark of The Fun Pimps Entertainment LLC.

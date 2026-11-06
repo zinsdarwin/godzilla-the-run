@@ -11,7 +11,7 @@ Two ways to play:
 
 ## Requirements
 
-- 7 Days to Die **V3.3** (built and tested on V3.3 b17), PC.
+- 7 Days to Die **V3.4** (built and tested on V3.4.0 b10), PC.
 - **Single player, co-op or a dedicated server.** In multiplayer everyone needs the mod, the same version, and EAC off (see Multiplayer below).
 - **Launch without EasyAntiCheat.** The mod runs code (a DLL), so EAC has to be off: in the game launcher untick "Use EAC", or start `7DaysToDie.exe` directly.
 
@@ -43,11 +43,13 @@ Tips: keep moving east at first, and keep an eye on the western sky. The army po
    - **Godzilla Warning**: how long before he comes the ground starts to tremble.
 3. Start. When the ground trembles, get out of town.
 
-He comes from the nearest sea or lake if there is one, else overland, levels the town and leaves. The towns he levels stay irradiated, and the dead there get back up as G-cell zombies at night. Traders offer jobs by the biome they stand in: the army's gear (burnt forest, desert, snow and wasteland traders), and the G-scale armor mods that turn his radiation aside (pine forest, burnt forest, desert and snow). Bring a gyrocopter of your own.
+He comes from the nearest sea or lake if there is one, else overland, levels the town and leaves. The towns he levels stay irradiated, and the dead there get back up as G-cell zombies at night. Traders offer jobs by the biome they stand in: the army's gear (burnt forest, desert and snow traders), the G-scale armor mods that turn his radiation aside (pine forest, burnt forest, desert and snow), and in the wasteland the pieces of the Bureau's Resonance Wave Amplifier, which draws him to it, given a sample from one of the glowing dead. Think about where you use it.
 
 **Army posts on random worlds:** a random world generated with the mod installed gets the mod's army posts in its wilderness, each in its own biome, and the G-scale jobs send you to them. Worlds generated before you installed the mod (and Navezgane and the pregens) don't have posts; their G-scale jobs use the game's own military sites instead.
 
 Already in a save? `kaiju anywhere <off|bloodmoon|weekly|every N [range]|warning M|status>` sets it for that save from the console.
+
+**King Ghidorah:** the same Godzilla tab has a **King Ghidorah** section with the same four choices (Off by default). Switch on Godzilla, King Ghidorah or both. If they end up in the same town, stay well clear. When thunder rolls out of a clear sky, get out of town. In a save already started: `kaiju ghidorah <off|bloodmoon|weekly|every N [range]|warning M|status>`.
 
 ## Multiplayer
 
@@ -69,6 +71,7 @@ Everyday:
 - `kaiju version`: the mod's version.
 - `kaiju run`: day, strip and how far the radiation has come.
 - `kaiju anywhere status`: Godzilla Anywhere's settings for this save and when he comes next.
+- `kaiju ghidorah status`: the same for King Ghidorah.
 - `kaiju parts`: the army gear you've found and still need.
 - `kaiju scales`: the G-scales you're wearing and how much of his radiation they turn aside.
 - `kaiju perf`: what the mod costs per frame, by subsystem; `kaiju perf off <name>` to switch a part off and compare.
@@ -77,7 +80,7 @@ Everyday:
 - `kaiju hatches`: if you updated mid-game, turns the vault hatches of an army post you're standing in to open against the wall.
 - `kaiju style classic`: an alternative look for his attacks.
 
-Testing and cheats (spoilers): `kaiju attack`, `kaiju anywhere now`, `kaiju give`, `kaiju gcell`, `kaiju test`, `kaiju breath`, `kaiju roar`, `kaiju radiation off`, `kaiju run reset`. See `kaiju help` for what they do.
+Testing and cheats (spoilers): `kaiju attack`, `kaiju anywhere now`, `kaiju ghidorah now`, `kaiju ghidorah bolt`, `kaiju ghidorah lift`, `kaiju ghidorah roar`, `kaiju fight`, `kaiju give`, `kaiju gcell`, `kaiju test`, `kaiju breath`, `kaiju roar`, `kaiju radiation off`, `kaiju run reset`. See `kaiju help` for what they do.
 
 ## Known limits
 
@@ -91,4 +94,6 @@ Testing and cheats (spoilers): `kaiju attack`, `kaiju anywhere now`, `kaiju give
 
 Inspired by Glock9's Ramblin Man (https://www.youtube.com/playlist?list=PLc594J9-WhOzu-wr3p_PN9qW_5mVovAzo) and Guns, Nerds, and Steel's The Road (https://www.youtube.com/playlist?list=PLWh-qD3Q6cxk) series.
 
-See CREDITS.txt. This is a free, unofficial, non-commercial fan mod. Godzilla is a trademark of Toho Co., Ltd.; this mod is not affiliated with or endorsed by Toho. The mod's code is MIT licensed (LICENSE).
+King Ghidorah model: "JJJ's 1972 King Ghidorah" by JJJ (sculpt and textures) and MMDCharizard (rigging), CC BY 4.0, https://sketchfab.com/3d-models/ff55e5dbc0af4f128d20b42ab4a432a2 (posed, re-bound, animated and converted for the game).
+
+See CREDITS.txt. This is a free, unofficial, non-commercial fan mod. Godzilla and King Ghidorah are trademarks of Toho Co., Ltd.; this mod is not affiliated with or endorsed by Toho. The mod's code is MIT licensed (LICENSE).
