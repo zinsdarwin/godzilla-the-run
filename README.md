@@ -47,9 +47,9 @@ He comes from the nearest sea or lake if there is one, else overland, levels the
 
 **Army posts on random worlds:** a random world generated with the mod installed gets the mod's army posts in its wilderness, each in its own biome, and the G-scale jobs send you to them. Worlds generated before you installed the mod (and Navezgane and the pregens) don't have posts; their G-scale jobs use the game's own military sites instead.
 
-Already in a save? `kaiju anywhere <off|bloodmoon|weekly|every N [range]|warning M|status>` sets it for that save from the console.
+Already in a save? Change the Godzilla tab for it under Continue, Settings, Sandbox Options, or use `kaiju anywhere <off|bloodmoon|weekly|every N [range]|warning M|status>` in the console.
 
-**King Ghidorah:** the same Godzilla tab has a **King Ghidorah** section with the same four choices (Off by default). Switch on Godzilla, King Ghidorah or both. If they end up in the same town, stay well clear. When thunder rolls out of a clear sky, get out of town. In a save already started: `kaiju ghidorah <off|bloodmoon|weekly|every N [range]|warning M|status>`.
+**King Ghidorah:** the same Godzilla tab has a **King Ghidorah** section with the same four choices (Off by default). Switch on Godzilla, King Ghidorah or both. If they end up in the same town, stay well clear. When thunder rolls out of a clear sky, get out of town. In a save already started, change them under Continue, Settings, Sandbox Options, or with `kaiju ghidorah <off|bloodmoon|weekly|every N [range]|warning M|status>`.
 
 ## Multiplayer
 
